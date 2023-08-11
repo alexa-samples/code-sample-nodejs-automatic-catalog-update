@@ -17,7 +17,7 @@ This code sample will update your catalogs and skill with the use of ASK NodeJS 
 
 ## Instructions
 1. [Obtain LWA client ID and client secret](https://developer.amazon.com/en-US/docs/alexa/smapi/get-access-token-smapi.html#configure-lwa-security-profile).
-2. [Generate refresh token using ask cli](https://developer.amazon.com/en-US/docs/alexa/smapi/ask-cli-command-reference.html#generate-lwa-tokens).
+2. [Generate refresh token using ask cli](https://developer.amazon.com/en-US/docs/alexa/smapi/ask-cli-command-reference.html#generate-lwa-tokens). (You can specify `alexa::ask:skills:readwrite` with --scopes or not use --scopes.)
 3. Input obtained ids and token to `index.js`.
 4. Replace sample catalogId and URL with your values. You can update more than one catalog.
 5. Input skill id to update in `index.js`
